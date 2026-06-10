@@ -97,8 +97,9 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
   <ProjectedElement :point="point">
     <div ref="wrapperRef" class="box-description">
       <div class="box-description-content">
-        <div class="box-description-details">
-          <p class="box-description-details-name">Khoa</p>
+        <div class="box-description-details" style="flex-direction: column; align-items: flex-start; gap: 4px;">
+          <p class="box-description-details-name">Võ Anh Khoa</p>
+          <p class="box-description-details-location-copy" style="font-size: var(--font-size-sm);">25/07/2005</p>
         </div>
         <div class="box-description-line"></div>
         <div class="box-description-copy">

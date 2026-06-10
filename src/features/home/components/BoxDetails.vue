@@ -104,13 +104,22 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
       <div class="box-details-content">
         <div class="box-details-title">
           <AppearingText
-            text="Khoa"
+            text="Võ Anh Khoa"
             :steps="1"
             :duration="0.35"
             @timeline:created="(tl: gsap.core.Timeline) => handleTimelineCreated(tl, 0)"
           />
         </div>
-        <!-- Removed Germany location block -->
+        <div class="box-details-items">
+          <div class="box-details-item" style="height: auto; margin-top: 4px;">
+            <AppearingText
+              text="25/07/2005"
+              :steps="1"
+              :duration="0.35"
+              @timeline:created="(tl: gsap.core.Timeline) => handleTimelineCreated(tl, 0.1)"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </ProjectedElement>
