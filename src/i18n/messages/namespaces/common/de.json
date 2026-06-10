@@ -1,7 +1,7 @@
 {
   "about": "Über mich",
-  "about-intro": "Webentwickler mit Schwerpunkt auf interaktiven 3D-Erlebnissen und Echtzeitanwendungen.<br/>Nutzt WebGL, TypeScript und Node.js um performante, skalierbare Apps zu erstellen, die fesselnde Visuals mit Funktionalität verbinden.",
-  "about-tagline": "Erstellt interaktive 3D-Erlebnisse und Echtzeitsysteme, die schnell, responsiv und benutzerfreundlich sind.",
+  "about-intro": "Netzwerkingenieur mit Schwerpunkt auf skalierbaren Netzwerkinfrastrukturen und Sicherheit.<br/>Entwirft und wartet robuste, leistungsstarke Netzwerkarchitekturen, die nahtlose Konnektivität und Systemzuverlässigkeit gewährleisten.",
+  "about-tagline": "Baut sichere, skalierbare und hochleistungsfähige Netzwerkinfrastruktursysteme auf.",
   "back-to-home": "Zurück zur Startseite",
   "original-concept-by": "Ursprünglich erstellt von",
   "contact": "Kontakt",
@@ -11,7 +11,7 @@
   "germany": "Deutschland",
   "get-in-touch": "Schreib mir",
   "go-to": "Gehe zu",
-  "job-title": "Webentwickler",
+  "job-title": "Netzwerkingenieur",
   "lets-work-together": "Lass' uns zusammen arbeiten!",
   "legal": "Impressum",
   "live-view": "Live-Ansicht",

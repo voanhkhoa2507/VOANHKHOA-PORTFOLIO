@@ -2,7 +2,6 @@
 import Social from "./Social.vue";
 import Link from "./Link.vue";
 import Clickable from "./Clickable.vue";
-import LangSwitch from "./LangSwitch.vue";
 import NotchSection from "./NotchSection.vue";
 import { t } from "../i18n/utils/translate";
 import { locale } from "../i18n/store";
@@ -66,7 +65,6 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
               >
             </Clickable>
           </div>
-          <LangSwitch />
         </div>
       </div>
       <div class="footer-credits">
@@ -81,7 +79,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
               external
               data-cursor="circle-white"
               data-hoversound="hover"
-              >David Heckhoff</Link
+              >Võ Anh Khoa</Link
             >
           </Clickable>
         </div>
@@ -100,7 +98,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
             >
           </Clickable>
         </div>
-        <p>© {{ new Date().getFullYear() }} David Heckhoff</p>
+        <p>© {{ new Date().getFullYear() }} Võ Anh Khoa</p>
       </div>
     </div>
   </footer>
