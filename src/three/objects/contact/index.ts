@@ -1,5 +1,5 @@
 import { resources } from "../../../utils/resources";
-import { Group, Mesh, MeshBasicMaterial } from "three";
+import { Group, Mesh } from "three";
 import gsap from "gsap";
 import { sceneWeights } from "../../../animations/scenes";
 import { scene } from "../../core/scene";
@@ -25,14 +25,14 @@ const init = () => {
 const initObjects = () => {
   if (objects) return;
   const resource = resources.items["contact-model"];
-  const rackResource = resources.items["server-rack-model"];
-  const cabinetResource = resources.items["server-cabinet-model"];
+  objects = {} as any;
+  const baseMesh = resource.scene.children.find((child: Object3D) => child.name === "base");
 
-  objects = {
-    base: resource.scene.children.find((child: Object3D) => child.name === "base"),
-  } as any;
+  if (baseMesh) {
+    objects!.base = baseMesh as Mesh;
+  }
 
-  Object.values(objects).forEach((object) => {
+  Object.values(objects!).forEach((object: any) => {
     const mat = getContactMaterial();
     object.material = mat;
 
