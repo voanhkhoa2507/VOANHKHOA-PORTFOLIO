@@ -17,6 +17,6 @@ export default {
     "<li>Fehlerbehebung bei Verbindungs- und Routing-Problemen mit Ping-, Traceroute- und Show-Befehlen.</li>" +
     "</ul>",
   components: [
-    { type: "media", props: { type: "image", src: img1, index: 0 } },
+    { type: "media", props: { type: "image", src: img1 } },
   ],
 } as const satisfies ProjectContent;

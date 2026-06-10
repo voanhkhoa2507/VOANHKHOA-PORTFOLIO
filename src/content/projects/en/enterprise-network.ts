@@ -17,6 +17,6 @@ export default {
     "<li>Troubleshot connectivity and routing issues using ping, traceroute, and show commands.</li>" +
     "</ul>",
   components: [
-    { type: "media", props: { type: "image", src: img1, index: 0 } },
+    { type: "media", props: { type: "image", src: img1 } },
   ],
 } as const satisfies ProjectContent;

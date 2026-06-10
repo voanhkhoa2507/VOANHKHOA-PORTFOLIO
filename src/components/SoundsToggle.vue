@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { soundsEnabled, howlerUnlocked } from "../features/sounds/composables/useHowler";
+import { soundsEnabled } from "../features/sounds/composables/useHowler";
 import ButtonRound from "./ButtonRound.vue";
 import Volume from "./icons/Volume.vue";
 import { t } from "../i18n/utils/translate";

@@ -21,12 +21,12 @@ export default {
     "<li>Improved lab operation efficiency by reducing repetitive manual configuration and supporting centralized device management.</li>" +
     "</ul>",
   components: [
-    { type: "media", props: { type: "image", src: img1, index: 0 } },
-    { type: "media", props: { type: "image", src: img2, index: 1 } },
-    { type: "media", props: { type: "image", src: img3, index: 2 } },
-    { type: "media", props: { type: "image", src: img4, index: 3 } },
-    { type: "media", props: { type: "image", src: img5, index: 4 } },
-    { type: "media", props: { type: "image", src: img6, index: 5 } },
-    { type: "media", props: { type: "image", src: img7, index: 6 } },
+    { type: "media", props: { type: "image", src: img1 } },
+    { type: "media", props: { type: "image", src: img2 } },
+    { type: "media", props: { type: "image", src: img3 } },
+    { type: "media", props: { type: "image", src: img4 } },
+    { type: "media", props: { type: "image", src: img5 } },
+    { type: "media", props: { type: "image", src: img6 } },
+    { type: "media", props: { type: "image", src: img7 } },
   ],
 } as const satisfies ProjectContent;
