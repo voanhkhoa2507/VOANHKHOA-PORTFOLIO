@@ -6,7 +6,6 @@ import { Vector3 } from "three";
 import ProjectedElement from "../../../components/ProjectedElement.vue";
 import { t } from "../../../i18n/utils/translate";
 import AppearingText from "../../../components/AppearingText.vue";
-import PinIcon from "../../../components/icons/Pin.vue";
 
 const point = new Vector3(-0.9, 2, 6.75);
 
@@ -99,11 +98,7 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
     <div ref="wrapperRef" class="box-description">
       <div class="box-description-content">
         <div class="box-description-details">
-          <p class="box-description-details-name">David</p>
-          <div class="box-description-details-location">
-            <PinIcon class="box-description-details-location-icon" />
-            <p class="box-description-details-location-copy">{{ t("germany") }}</p>
-          </div>
+          <p class="box-description-details-name">Khoa</p>
         </div>
         <div class="box-description-line"></div>
         <div class="box-description-copy">
