@@ -13,7 +13,8 @@ import { getSoundsHowl } from "../utils/sounds";
 import type { SoundKey } from "../types";
 
 export const howlerUnlocked = ref(false);
-export const soundsEnabled = ref(false);
+const initialSoundsEnabled = localStorage.getItem("portfolio-soundsEnabled");
+export const soundsEnabled = ref(initialSoundsEnabled !== "false");
 
 Howler.volume(0);
 

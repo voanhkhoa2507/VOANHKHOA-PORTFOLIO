@@ -17,7 +17,13 @@ export type TagVariant =
   | "routing"
   | "security"
   | "firewall"
-  | "aws";
+  | "aws"
+  | "switching"
+  | "infrastructure design"
+  | "python"
+  | "streamlit"
+  | "netmiko"
+  | "network automation";
 
 export const tagLabels = {
   three: "Three.js",
@@ -39,4 +45,10 @@ export const tagLabels = {
   security: "Security",
   firewall: "Firewall",
   aws: "AWS",
+  switching: "Switching",
+  "infrastructure design": "Infrastructure Design",
+  python: "Python",
+  streamlit: "Streamlit",
+  netmiko: "Netmiko",
+  "network automation": "Network Automation",
 } as const satisfies Record<TagVariant, string>;

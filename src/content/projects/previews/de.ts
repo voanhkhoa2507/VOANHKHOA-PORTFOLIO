@@ -1,12 +1,18 @@
 import type { ProjectPreview } from "../../types";
-
-const dummyThumbnail = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+import networkThumb from "../../../assets/images/projects/network-automation/Mô hình cơ bản để test.png";
+import enterpriseThumb from "../../../assets/images/projects/enterprise-network/Mô hình mạng.png";
 
 export default [
   {
-    title: "Mein Erstes Projekt",
-    slug: "my-project",
-    thumbnail: dummyThumbnail,
-    description: "Dies ist eine Vorlagenprojektbeschreibung.",
+    title: "Network Automation Web App",
+    slug: "network-automation",
+    thumbnail: networkThumb,
+    description: "Eine Web-App zur Verwaltung und Automatisierung von Netzwerken mit Streamlit und Netmiko.",
+  },
+  {
+    title: "Enterprise Network Infrastruktur",
+    slug: "enterprise-network",
+    thumbnail: enterpriseThumb,
+    description: "Drei-Schichten-Unternehmensnetzwerk-Infrastruktur-Design und Konfigurations-Lab.",
   },
 ] as const satisfies ProjectPreview[];
